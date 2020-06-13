@@ -1,0 +1,5 @@
+/.git
+/.vscode
+/bot.py
+/Procfile
+/requirements.txt

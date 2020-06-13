@@ -17,7 +17,7 @@ def send_echo(message):
     answer = "in city of " + message.text + " is " + w.detailed_status + " right now" + "\n"
     answer += "temperature is " + str(temp) + "\n\n"
 
-    if temp < 10: 
+    if temp < 9: 
 	    answer += ("it's cold right now, get warm clothes")
     elif temp < 25:
 	    answer += ("normal temperature")
